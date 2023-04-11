@@ -15,6 +15,7 @@ const consolidate = require('gulp-consolidate');
 const fontName = 'ix-icons';
 const className = 'glyph';
 const template = 'ix-style';
+const startUnicode = 0xf000
 
 const timestamp = Math.round(Date.now() / 1000);
 
@@ -26,6 +27,7 @@ gulp.task(
       .pipe(gulp.dest('dist/svg'))
       .pipe(
         iconfont({
+          startUnicode,
           fontName,
           formats: ['ttf', 'eot', 'woff', 'woff2', 'svg'],
           timestamp,

@@ -1,16 +1,13 @@
 {
-  "name": "@siemens/ix-icons",
-  "version": "1.0.4",
+  "name": "ix-icons-cee",
+  "version": "1.1.2",
   "license": "MIT",
-  "description": "Siemens ix icon library",
-  "author": "Siemens AG",
-  "homepage": "https://www.github.com/siemens/ix-icons",
+  "description": "CEE icon library",
+  "author": "Florian Prechtl",
+  "homepage": "https://github.com/florianprechtl/ix-icons-cee",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/siemens/ix-icons.git"
-  },
-  "bugs": {
-    "url": "https://www.github.com/siemens/ix/issues"
+    "url": "https://github.com/florianprechtl/ix-icons-cee.git"
   },
   "packageManager": "yarn@1.22.15",
   "engines": {
